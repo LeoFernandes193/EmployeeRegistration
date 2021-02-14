@@ -1,13 +1,13 @@
-package br.com.officialregistration.java.officialregistration;
+package br.com.employeeregistration.java.employeeregistration;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class OfficialregistrationApplication {
+public class EmployeeRegistrationApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(OfficialregistrationApplication.class, args);
+		SpringApplication.run(EmployeeRegistrationApplication.class, args);
 	}
 
 }

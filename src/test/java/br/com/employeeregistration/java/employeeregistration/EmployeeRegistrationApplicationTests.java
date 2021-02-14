@@ -1,10 +1,10 @@
-package br.com.officialregistration.java.officialregistration;
+package br.com.employeeregistration.java.employeeregistration;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class OfficialregistrationApplicationTests {
+class EmployeeRegistrationApplicationTests {
 
 	@Test
 	void contextLoads() {
