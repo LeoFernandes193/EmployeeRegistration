@@ -28,9 +28,4 @@ public class EmployeeRegistrationEntity {
 
     @Column(name = "EMPLOYEE_PHONE")
     private String employeePhone;
-
-
-
-
-
 }
