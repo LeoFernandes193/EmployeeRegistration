@@ -9,23 +9,23 @@ import javax.persistence.*;
 import java.time.ZonedDateTime;
 
 @Entity
-@Table(name = "TB_EMAIL_EMPLOYEE")
+@Table(name = "TB_PHONE_EMPLOYEE")
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
 @Builder
-public class EmailEmployeeEntity {
+public class PhoneEmployeeEntity {
 
     @Id
-    @Column(name = "ID_EMAIL")
     @GeneratedValue(strategy= GenerationType.IDENTITY)
-    private Integer idEmail;
+    @Column(name = "ID_PHONE_EMPLOYEE")
+    private Integer idPhoneEmployee;
 
     @JoinColumn(name = "ID_EMPLOYEE")
     private EmployeeRegistrationEntity employeeRegistrationEntity;
 
-    @Column(name = "EMAIL_ANDRESS", length = 60)
-    private String emailAndress;
+    @Column(name = "PHONE_EMPLOYEE")
+    private String phoneEmployee;
 
     @Column(name = "DATE_INSERT")
     private ZonedDateTime dateInsert;

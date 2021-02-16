@@ -6,6 +6,7 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 import javax.persistence.*;
+import java.time.ZonedDateTime;
 
 @Entity
 @Table(name = "TB_EMPLOYEE_REGISTRATION")
@@ -26,6 +27,6 @@ public class EmployeeRegistrationEntity {
     @Column(name = "CPF", unique = true)
     private String registrationPhysicalPerson;
 
-    @Column(name = "EMPLOYEE_PHONE")
-    private String employeePhone;
+    @Column(name = "DATE_INSERT")
+    private ZonedDateTime dateInsert;
 }
